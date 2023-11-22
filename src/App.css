@@ -143,3 +143,9 @@
     opacity: 0;
   }
 }
+
+.scroll-to-top{
+  /* right: 0px !important; */
+  left: 10px !important;
+  z-index: 800;
+}

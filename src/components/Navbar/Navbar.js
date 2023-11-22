@@ -7,7 +7,7 @@ import { AnimatePresence, LayoutGroup, motion } from 'framer-motion'
 import { sidebar, navButton, navbar, variants, container, item, letterContainer2 } from './NavbarAnimation'
 import { useMediaQuery } from '@mui/material';
 import TextAnimation from './TextAnimation';
-import logo from '../../images/logo512.png'
+import logo from '../../assets/images/logo512.png'
 import useCustomScroll, { name } from '../../util/Navbar';
 
 function Navbar() {

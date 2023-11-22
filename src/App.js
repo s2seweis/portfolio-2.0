@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css';
-import logo from './images/logo512.png'
+import logo from '../src/assets/images/logo512.png'
 import Layout from './pages/Layout';
 
 function App() {

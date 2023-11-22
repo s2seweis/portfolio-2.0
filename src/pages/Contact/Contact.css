@@ -5,11 +5,11 @@
   padding-top: 4.5rem;
   display: flex;
   flex-direction: column;
-  background: lightblue;
-  position: relative;
+  /* background: lightblue;
+  position: relative; */
 }
 
-@media screen and (min-width: 292px) {
+/* @media screen and (min-width: 292px) {
   .Contact::before {
     content: "";
     position: absolute;
@@ -19,7 +19,7 @@
     bottom: 0;
     background: linear-gradient(to bottom right, #ADD8E6, #76C3F2);
   }
-}
+} */
 
 .contact__container {
   padding: 0 1.7rem;
@@ -27,7 +27,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  z-index: 100;
 }
 
 .contact__title {
@@ -50,7 +49,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  z-index: 100;
 }
 
 .contact__row {
@@ -87,7 +85,6 @@
   justify-content: center;
   margin: 2.5rem 0 0 0;
   gap: 1rem;
-  z-index: 100;
   margin-bottom: 50px;
 }
 

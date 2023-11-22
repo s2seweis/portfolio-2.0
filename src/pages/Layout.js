@@ -7,6 +7,7 @@ import Skills from './Skills/Skills'
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Navbar from '../components/Navbar/Navbar';
 import ContactIcon from '../components/ContactIcon/ContactIcon';
+import ScrollToTop from 'react-scroll-to-top'
 
 function Layout() {
   const [project, setProject] = useState()
@@ -41,7 +42,8 @@ function Layout() {
   })
 
   return (
-    <Router>   
+    <Router>  
+      <ScrollToTop/> 
       <Navbar />
       <ContactIcon iconColor={iconColor} iconFadeIn={iconFadeIn}/>
       <Switch>

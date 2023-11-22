@@ -1,9 +1,8 @@
 import React from 'react'
 import './About.css'
 import cv from '../../assets/Curriculum_Vitae.pdf'
-import me from '../../assets/images/me.jpg';
-import Lottie from 'lottie-react'
-import data from '../../images/data.json'
+// import Lottie from 'lottie-react'
+// import data from '../../images/data.json'
 
 function About({ scrollValue }) {
 
