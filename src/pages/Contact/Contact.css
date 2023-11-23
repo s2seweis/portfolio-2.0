@@ -1,10 +1,12 @@
 .Contact {
   width: 100%;
   /* height: 100vh; */
-  height: auto;
+  /* height: auto; */
   padding-top: 4.5rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  /* height: 100vh; */
   /* background: lightblue;
   position: relative; */
 }
@@ -134,7 +136,9 @@
   .Contact {
     flex-direction: row;
     /* justify-content: flex-start; */
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
+    align-items: baseline;
+    /* height: 100vh; */
   }
 
   .contact__container {
@@ -190,4 +194,94 @@
     font-family: "Oswald", sans-serif;
     color: rgb(37, 37, 37);
   }
+}
+
+.Contact {
+  /* ... (your existing styles) */
+}
+
+.contact__form {
+  margin-top: 40px;
+}
+
+form {
+  display: grid;
+  gap: 20px;
+}
+
+.form-group {
+  display: grid;
+  gap: 8px;
+}
+
+label {
+  font-size: 1.2em;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  /* padding: 10px 20px; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.contact__card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  margin: 0px 20px 20px 20px;
+}
+
+.form-group {
+  display: grid;
+  gap: 12px;
+}
+
+label {
+  font-size: 1.2em;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-contact {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+.button-contact:hover {
+  background-color: #0056b3;
 }

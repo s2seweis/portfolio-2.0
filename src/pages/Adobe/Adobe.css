@@ -1,0 +1,51 @@
+/* Adobe.css */
+
+.Adobe {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.adobe__container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: os;
+}
+
+.adobe__title h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.divider {
+  height: 2px;
+  background-color: #333;
+  margin: 20px 0;
+}
+
+.adobe__card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.adobe__card h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.adobe__card p {
+  color: #666;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.adobe__card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}

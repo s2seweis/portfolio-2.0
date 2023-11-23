@@ -12,8 +12,8 @@ import useCustomScroll, { name } from '../../util/Navbar';
 
 function Navbar() {
   const [nav, setNav] = useState(false)
-  const mobileView = useMediaQuery('(max-width:800px)');
-  const { bg, home, project, about, skills, contact } = useCustomScroll()
+  const mobileView = useMediaQuery('(max-width:500px)');
+  const { bg, home, project, about, skills, contact, adobe } = useCustomScroll()
 
   const open = () => {setNav(nav => !nav)}
 
@@ -73,6 +73,8 @@ function Navbar() {
                 <NavbarList location="#Skills" name="Skills" Cname={skills ? "nav__locationNew active" :"nav__locationNew"}  onClick={open} />
             
                 <NavbarList location="#Contact" name="Contact" Cname={contact ? "nav__locationNew active" :"nav__locationNew"}  onClick={open} />
+
+                <NavbarList location="#Adobe" name="Adobe" Cname={adobe ? "nav__locationNew active" :"nav__locationNew"}  onClick={open} />
             </motion.div>
         </motion.div>
     </motion.nav>
@@ -138,6 +140,9 @@ function Navbar() {
           </motion.div>
           <motion.div variants={item}>
             <NavbarList location="#Skills" name="Skills" Cname={skills ? "nav__location onTrack" :"nav__location"}  />
+          </motion.div>
+          <motion.div variants={item}>
+            <NavbarList location="#Adobe" name="Adobe" Cname={adobe ? "nav__location onTrack" :"nav__location"}  />
           </motion.div>
           <motion.div variants={item}>
             <NavbarList location="#Contact" name="Contact" Cname={contact ? "nav__location onTrack custom__nav" :"nav__location custom__nav"}  />

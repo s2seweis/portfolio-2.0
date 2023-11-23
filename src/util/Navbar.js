@@ -7,6 +7,7 @@ export default function useCustomScroll() {
   const [about, setAbout] = useState()
   const [skills, setSkills] = useState()
   const [contact, setContact] = useState()
+  const [adobe, setAdobe] = useState()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,7 +18,9 @@ export default function useCustomScroll() {
       const projectScrolled = yPos > 500 && yPos < 1210;
       const aboutScrolled = yPos > 1210 && yPos < 1800;
       const skillsScrolled = yPos > 1800 && yPos < 2200;
-      const contactScrolled = yPos > 2200
+      const contactScrolled = yPos > 2200 && yPos < 2800;
+      // const contactScrolled = yPos > 2200
+      const adobeScrolled = yPos > 2800
       
       setBg(bgScrolled)
       setHome(homeScrolled)
@@ -25,6 +28,7 @@ export default function useCustomScroll() {
       setAbout(aboutScrolled)
       setSkills(skillsScrolled)
       setContact(contactScrolled)
+      setAdobe(adobeScrolled)
     }
 
     window.addEventListener('scroll', handleScroll, false);
@@ -40,7 +44,8 @@ export default function useCustomScroll() {
     project,
     about,
     skills,
-    contact
+    contact,
+    adobe
   }
 
 }

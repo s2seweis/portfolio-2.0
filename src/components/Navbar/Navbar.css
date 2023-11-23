@@ -1,5 +1,4 @@
 .Navbar {
-  z-index: 10;
   background-color: white;
   box-shadow: 
     1px 1px 5px 0px rgba(0, 0, 0, .1),
@@ -173,7 +172,13 @@
   background-color: rgb(241, 60, 96);
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
+  .navbar__icon {
+    margin-right: 150px; 
+  }
+}
+
+@media only screen and (min-width: 500px) {
   .Navbar {
     position: sticky;
     display: flex;
@@ -189,12 +194,11 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    /* padding-top: 10px; */
   }
 
-  .navbar__icon {
-    margin-right: 150px;
-  }
+  /* .navbar__icon {
+    margin-right: 150px; 
+  } */
 
   .hamburger__menu {
     display: none;
@@ -229,3 +233,4 @@
     /* border-bottom: 3px solid rgb(31, 84, 199); */
   }
 }
+

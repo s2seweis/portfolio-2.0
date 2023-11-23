@@ -23,7 +23,7 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <div className="welcome__text">
             <h5>Welcome</h5>
-            <h1>Loading</h1>
+            <h1>To my Portfolio</h1>
           </div>
         </div>
         :null  

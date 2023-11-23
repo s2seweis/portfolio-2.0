@@ -11,7 +11,7 @@ function Home() {
           I'm <span className="my__name"> Sebastian </span>
         </h5>
         <h1>A Software Developer</h1>
-        <h3>Specialize in <span className="reactJs">ReactJS</span> </h3>
+        <h3>Specialized in <span className="reactJs">ReactJS</span> </h3>
         <div className="home__button">
           <HashLink smooth to="#Projects" className="projects__button">Projects</HashLink>
           <HashLink smooth to="#About" className="about__button">About</HashLink>
