@@ -1,6 +1,7 @@
+/* eslint-disable */
 import React from 'react'
 import './About.css'
-import cv from '../../assets/Curriculum_Vitae.pdf'
+// import cv from '../../assets/Curriculum_Vitae.pdf'
 // import Lottie from 'lottie-react'
 // import data from '../../images/data.json'
 
