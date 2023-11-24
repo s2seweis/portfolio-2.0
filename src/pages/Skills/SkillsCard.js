@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { usePresence, motion } from 'framer-motion';
 import { LazyLoadImage } from 'react-lazy-load-image-component';

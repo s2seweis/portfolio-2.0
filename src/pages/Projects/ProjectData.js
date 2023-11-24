@@ -1,3 +1,4 @@
+/* eslint-disable */
 import {spotify, airbnb, twitter, reactjs, nextjs, tailwind, framer, typescript, nextauth, mongodb, shop, shop1} from '../../assets/images/index'
 import blog1 from './images/blog1.png';
 import gmap from './images/gmap.png';

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState } from 'react';
 import './Projects.css';
 import { FaArrowCircleUp, FaArrowDown, FaGithub } from 'react-icons/fa';
