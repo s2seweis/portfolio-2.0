@@ -15,7 +15,7 @@ function App() {
         setShowPage(true)
       },2800)
     }
-  })
+  }, [countDown])
 
   return (
     <div className="App">
