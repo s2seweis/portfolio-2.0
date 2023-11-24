@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Projects.css';
-import { FaArrowCircleUp, FaArrowDown } from 'react-icons/fa';
+import { FaArrowCircleUp, FaArrowDown, FaGithub } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { SliderData } from './ProjectData';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -34,7 +34,7 @@ function Projects({ scrollValue }) {
           </div>
         </div>
         <div className='projects__title'>
-          <h3 className={scrollValue ? "featured__project animation__fromLeft" : "featured__project"} style={{ margin: "auto", fontSize:"25px" }}>{currentSlideData.title}</h3>
+          <h3 className={scrollValue ? "featured__project animation__fromLeft" : "featured__project"} style={{ margin: "auto", fontSize: "25px" }}>{currentSlideData.title}</h3>
         </div>
         <div className="project__contents">
           <motion.div
@@ -67,6 +67,12 @@ function Projects({ scrollValue }) {
                 <FaArrowCircleUp fontSize='large' className='projects__icon' />
               </a>
             </div>
+            <div className='lower__button'>
+              <a style={{color:"black"}} href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+                <FaGithub /> Github
+              </a>
+            </div>
+
           </motion.div>
           <div className="direction__buttonContainer">
             <motion.div

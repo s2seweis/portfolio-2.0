@@ -71,10 +71,11 @@ function Navbar() {
                 <NavbarList location="#About" name="About" Cname={about ? "nav__locationNew active" :"nav__locationNew"} onClick={open} />
             
                 <NavbarList location="#Skills" name="Skills" Cname={skills ? "nav__locationNew active" :"nav__locationNew"}  onClick={open} />
+               
+                <NavbarList location="#Adobe" name="Adobe" Cname={adobe ? "nav__locationNew active" :"nav__locationNew"}  onClick={open} />
             
                 <NavbarList location="#Contact" name="Contact" Cname={contact ? "nav__locationNew active" :"nav__locationNew"}  onClick={open} />
 
-                <NavbarList location="#Adobe" name="Adobe" Cname={adobe ? "nav__locationNew active" :"nav__locationNew"}  onClick={open} />
             </motion.div>
         </motion.div>
     </motion.nav>
