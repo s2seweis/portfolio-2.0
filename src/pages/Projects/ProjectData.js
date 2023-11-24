@@ -4,9 +4,12 @@ import blog1 from './images/blog1.png';
 import gmap from './images/gmap.png';
 import crwnshop from './images/crwn-shop.png';
 import reactrouter from './images/react-router.png';
+import chatapp from './images/chat-app1.png'
+import streamer from './images/streamer.png'
+import qrcode from './images/qrcode.png'
 
 import { FaReact, FaNextcloud, FaNodeJs, FaSass, FaAws, FaCss3, FaCcStripe, FaCookie, FaFacebook, FaGoogle, FaNode } from 'react-icons/fa';
-import { SiRedux, SiNextdotjs, SiTailwindcss, SiFirebase, SiGatsby, SiStrapi, SiGooglemaps, SiStyledcomponents, SiMongodb, SiExpress } from 'react-icons/si';
+import { SiRedux, SiNextdotjs, SiTailwindcss, SiFirebase, SiGatsby, SiStrapi, SiGooglemaps, SiStyledcomponents, SiMongodb, SiExpress, SiSocketdotio } from 'react-icons/si';
 
 export const SliderData = [
   {
@@ -67,20 +70,43 @@ export const SliderData = [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
       { sId: 32, icon: <SiMongodb />, name: 'MongoDB' },
       { sId: 33, icon: <SiExpress />, name: 'Express' },
-      { sId: 33, icon: <FaFacebook />, name: 'Facebook OAuth' },
-      { sId: 33, icon: <FaGoogle />, name: 'Google Auth' },
-      { sId: 33, icon: <FaNode />, name: 'Node Mailer' },
+      { sId: 34, icon: <FaFacebook />, name: 'Facebook OAuth' },
+      { sId: 35, icon: <FaGoogle />, name: 'Google Auth' },
+      { sId: 36, icon: <FaNode />, name: 'Node Mailer' },
     ],
     url: 'https://example.com/project3',
   },
   {
     id: 6,
-    mainImg: gmap,
-    title: "React + GMap Api",
+    mainImg: chatapp,
+    title: "React Chap + Mongo DB + Websockets",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
-      { sId: 32, icon: <SiGatsby />, name: 'Gatsby' },
-      { sId: 33, icon: <SiGooglemaps />, name: 'GMap Api' },
+      { sId: 32, icon: <SiMongodb />, name: 'Mongo DB' },
+      { sId: 33, icon: <SiExpress />, name: 'Express' },
+      { sId: 34, icon: <SiSocketdotio />, name: 'Socket IO' },
+    ],
+    url: 'https://example.com/project3',
+  },
+  {
+    id: 7,
+    mainImg: streamer,
+    title: "React Streaming with Mongo DB and Grid FS",
+    secondaryImg: [
+      { sId: 31, icon: <FaReact />, name: 'ReactJS' },
+      { sId: 32, icon: <SiMongodb />, name: 'Mongo DB' },
+      { sId: 34, icon: <SiMongodb />, name: 'Grid FS' },
+      { sId: 33, icon: <SiExpress />, name: 'Express' },
+    ],
+    url: 'https://example.com/project3',
+  },
+  {
+    id: 8,
+    mainImg: qrcode,
+    title: "React QR Code Generator",
+    secondaryImg: [
+      { sId: 31, icon: <FaReact />, name: 'ReactJS' },
+      { sId: 32, icon: <FaReact />, name: 'React-Qr_code' },
     ],
     url: 'https://example.com/project3',
   },

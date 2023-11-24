@@ -24,7 +24,7 @@ function About({ scrollValue }) {
               <h1 className="about__greetings">Hi, I'm <span className="about__name">Sebastian Weissenborn</span> </h1>
               <p className="about__text">Looking for a job opportunity for a ReactJS Developer position to start my career in Web Development. My passion is focused on developing applications with the use of Modern Javascript Library and Frameworks.</p>
             </div>
-            <a style={{margin:"20px auto", padding:"15px", width:"auto", fontSize:"15px"}} href={cv} download className='download__cv'>Download CV</a>
+            <a style={{margin:"20px auto", padding:"15px", width:"auto", fontSize:"15px"}} href={"cv"} download className='download__cv'>Download CV</a>
           </div>      
         </div>
       </div>
