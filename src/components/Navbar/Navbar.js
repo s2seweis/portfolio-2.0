@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useEffect } from 'react'
 import "./Navbar.css"
 import { PersonOutlineOutlined } from '@mui/icons-material';
@@ -29,7 +30,7 @@ function Navbar() {
 
   useEffect(() => {
     textAnimation();
-  },[])
+  },[textAnimation])
 
   return (
   <>{ mobileView ?
