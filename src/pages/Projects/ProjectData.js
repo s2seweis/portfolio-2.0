@@ -3,7 +3,7 @@ import {spotify, airbnb, twitter, reactjs, nextjs, tailwind, framer, typescript,
 import blog1 from './images/blog.png';
 import gmap from './images/gmap.png';
 import crwnshop from './images/crwn-shop.png';
-import reactrouter from './images/router.webp';
+import reactrouter from './images/router1.webp';
 import chatapp from './images/chat-app.png'
 import streamer from './images/streamer.png'
 import qrcode from './images/qrcode.png'
@@ -124,7 +124,7 @@ export const SliderData = [
   {
     id: 9,
     mainImg: reactnative,
-    title: "9. Portfolio",
+    title: "9. React Native & Expo",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'React Native' },
       { sId: 32, icon: <SiFirebase />, name: 'Firebase' },
