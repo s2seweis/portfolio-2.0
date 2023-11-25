@@ -42,10 +42,17 @@
 
 .sidebar__newButton {
   position: fixed;
-  top: 30%;
-  left: 40%;
+  top: 0%;
+  left: 5%;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+  background-color: #f5f7f9;
+  /* border-radius: 25px; */
+  height: 100%;
+  justify-content: center;
 }
 
 .nav__locationNew {

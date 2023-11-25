@@ -10,13 +10,14 @@ import { useMediaQuery } from '@mui/material';
 import TextAnimation from './TextAnimation';
 import logo from '../../assets/images/logo512.png'
 import useCustomScroll, { name } from '../../util/Navbar';
+import ParticlesNew from '../Particles/Particles';
 
 function Navbar() {
   const [nav, setNav] = useState(false)
   const mobileView = useMediaQuery('(max-width:500px)');
   const { bg, home, project, about, skills, contact, adobe } = useCustomScroll()
 
-  const open = () => {setNav(nav => !nav)}
+  const open = () => { setNav(nav => !nav) }
 
   const [showNavLogo, setShowNavLogo] = useState(false)
   const [myName, setMyName] = useState(name)
@@ -25,34 +26,34 @@ function Navbar() {
     setTimeout(() => {
       setMyName(myName.filter(nm => nm.type.match("stay")))
       setShowNavLogo(true)
-    },3000)
+    }, 3000)
   }
 
   useEffect(() => {
     textAnimation();
-  },[textAnimation])
+  }, [textAnimation])
 
   return (
-  <>{ mobileView ?
-    <motion.nav 
-      onClick={open}
-      initial='close'
-      animate={nav ? "open" : "close"}
-      exit="exit"
-      variants={sidebar}
-      className="Navbar">
+    <>{mobileView ?
+      <motion.nav
+        onClick={open}
+        initial='close'
+        animate={nav ? "open" : "close"}
+        exit="exit"
+        variants={sidebar}
+        className="Navbar">
         <div className="hamburger__menu" >
-          <motion.div 
+          <motion.div
             initial="topClose"
             animate={nav ? 'topOpen' : 'topClose'}
             variants={navButton}
             className="navbar__buttonTop"></motion.div>
-          <motion.div 
+          <motion.div
             initial="midClose"
             animate={nav ? 'midOpen' : 'midClose'}
             variants={navButton}
             className="navbar__buttonMid"></motion.div>
-          <motion.div 
+          <motion.div
             initial="botClose"
             animate={nav ? 'botOpen' : 'botClose'}
             variants={navButton}
@@ -62,92 +63,96 @@ function Navbar() {
           initial="closed"
           animate={nav ? "open" : "closed"}
           variants={navbar}>
-            <motion.div
-              className='sidebar__newButton'
-              variants={variants} >
-                <NavbarList location="#Home" name="Home" Cname={home ? "nav__locationNew active" :"nav__locationNew"} onClick={open} />
-            
-                <NavbarList location="#Projects" name="Projects"  Cname={project ? "nav__locationNew active" :"nav__locationNew"} onClick={open} />
-           
-                <NavbarList location="#About" name="About" Cname={about ? "nav__locationNew active" :"nav__locationNew"} onClick={open} />
-            
-                <NavbarList location="#Skills" name="Skills" Cname={skills ? "nav__locationNew active" :"nav__locationNew"}  onClick={open} />
-               
-                <NavbarList location="#Adobe" name="Adobe" Cname={adobe ? "nav__locationNew active" :"nav__locationNew"}  onClick={open} />
-            
-                <NavbarList location="#Contact" name="Contact" Cname={contact ? "nav__locationNew active" :"nav__locationNew"}  onClick={open} />
 
-            </motion.div>
+
+          <motion.div
+            className='sidebar__newButton'
+            variants={variants} >
+            <ParticlesNew />
+            <NavbarList location="#Home" name="Home" Cname={home ? "nav__locationNew active" : "nav__locationNew"} onClick={open} />
+
+            <NavbarList location="#Projects" name="Projects" Cname={project ? "nav__locationNew active" : "nav__locationNew"} onClick={open} />
+
+            <NavbarList location="#About" name="About" Cname={about ? "nav__locationNew active" : "nav__locationNew"} onClick={open} />
+
+            <NavbarList location="#Skills" name="Skills" Cname={skills ? "nav__locationNew active" : "nav__locationNew"} onClick={open} />
+
+            <NavbarList location="#Adobe" name="Adobe" Cname={adobe ? "nav__locationNew active" : "nav__locationNew"} onClick={open} />
+
+            <NavbarList location="#Contact" name="Contact" Cname={contact ? "nav__locationNew active" : "nav__locationNew"} onClick={open} />
+
+          </motion.div>
+
         </motion.div>
-    </motion.nav>
+      </motion.nav>
 
-    // {/* FOR WEB-VIEW */}
-  :  <motion.div 
-      className="navbar__container"
-      animate={{ backgroundColor: bg ? "#282c34" : "transparent" }}
+      // {/* FOR WEB-VIEW */}
+      : <motion.div
+        className="navbar__container"
+        animate={{ backgroundColor: bg ? "#282c34" : "transparent" }}
       >
         <HashLink smooth to="#Home" className="navbar__icon">
-          <motion.div 
-            initial={{ x: 40 }} 
-            animate={{ x:showNavLogo ? 20 : 0 }} 
+          <motion.div
+            initial={{ x: 40 }}
+            animate={{ x: showNavLogo ? 20 : 0 }}
             transition={{ type: "spring", stiffness: 100, damping: 5 }}>
-            <PersonOutlineOutlined fontSize='large'  />
+            <PersonOutlineOutlined fontSize='large' />
           </motion.div>
-          <motion.div 
-            className='nav__logoAnimation' 
+          <motion.div
+            className='nav__logoAnimation'
             variants={letterContainer2}
             initial="hidden"
             animate="visible">
 
             <LayoutGroup>
               <AnimatePresence>
-              {myName?.map((n, i) => (
-                <TextAnimation name={n} iD={n.letter} i={i} />
-              ))}
+                {myName?.map((n, i) => (
+                  <TextAnimation name={n} iD={n.letter} i={i} />
+                ))}
               </AnimatePresence>
             </LayoutGroup>
 
-            { showNavLogo ? 
-              <motion.div 
-                initial={{ scale: 0 , y: 0, x:0 }} 
-                animate={{ scale: 1, y: -13, x: 14 }} 
+            {showNavLogo ?
+              <motion.div
+                initial={{ scale: 0, y: 0, x: 0 }}
+                animate={{ scale: 1, y: -13, x: 14 }}
                 transition={{ duration: 1.1 }}>
                 <motion.img
                   animate={{ rotate: 360 }}
-                  transition= {{ 
-                    repeat: Infinity, 
+                  transition={{
+                    repeat: Infinity,
                     duration: 1.5,
                     ease: "linear"
                   }}
-                  src={logo} 
-                  className="nav__reactlogo" 
+                  src={logo}
+                  className="nav__reactlogo"
                   alt="logo" />
               </motion.div>
-              : null }
+              : null}
 
           </motion.div>
         </HashLink>
 
-        <motion.div 
+        <motion.div
           className="web__menu"
           variants={container}
           initial="hidden"
           animate="visible" >
-            
+
           <motion.div variants={item}>
-            <NavbarList location="#Projects" name="Projects" Cname={project ? "nav__location onTrack" :"nav__location"} />
+            <NavbarList location="#Projects" name="Projects" Cname={project ? "nav__location onTrack" : "nav__location"} />
           </motion.div>
           <motion.div variants={item}>
-            <NavbarList location="#About" name="About" Cname={about ? "nav__location onTrack" :"nav__location"}  />
+            <NavbarList location="#About" name="About" Cname={about ? "nav__location onTrack" : "nav__location"} />
           </motion.div>
           <motion.div variants={item}>
-            <NavbarList location="#Skills" name="Skills" Cname={skills ? "nav__location onTrack" :"nav__location"}  />
+            <NavbarList location="#Skills" name="Skills" Cname={skills ? "nav__location onTrack" : "nav__location"} />
           </motion.div>
           <motion.div variants={item}>
-            <NavbarList location="#Adobe" name="Adobe" Cname={adobe ? "nav__location onTrack" :"nav__location"}  />
+            <NavbarList location="#Adobe" name="Adobe" Cname={adobe ? "nav__location onTrack" : "nav__location"} />
           </motion.div>
           <motion.div variants={item}>
-            <NavbarList location="#Contact" name="Contact" Cname={contact ? "nav__location onTrack custom__nav" :"nav__location custom__nav"}  />
+            <NavbarList location="#Contact" name="Contact" Cname={contact ? "nav__location onTrack custom__nav" : "nav__location custom__nav"} />
           </motion.div>
         </motion.div>
       </motion.div>

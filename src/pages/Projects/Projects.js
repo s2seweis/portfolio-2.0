@@ -69,7 +69,7 @@ function Projects({ scrollValue }) {
               </a>
             </div>
             <div className='lower__button'>
-              <a style={{color:"black"}} href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+              <a style={{color:"black"}} href={currentSlideData.github} target="_blank" rel="noopener noreferrer">
                 <FaGithub /> Github
               </a>
             </div>
