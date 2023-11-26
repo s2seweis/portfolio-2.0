@@ -4,14 +4,16 @@ import blog1 from './images/blog.png';
 import gmap from './images/gmap-v1.png';
 import crwnshop from './images/crwn-shop.png';
 import reactrouter from './images/router1.webp';
-import chatapp from './images/chat-app.png'
+import chatapp from './images/chat.webp'
 import streamer from './images/streamer.png'
 import qrcode from './images/qrcode.png'
 import reactnative from './images/second-react-native.webp'; 
 import portfolio from './images/portfolio.webp'; 
+import bookcar from './images/book-car.webp'; 
+import survey from './images/survey-v1.webp';
 
-import { FaReact, FaNextcloud, FaNodeJs, FaSass, FaAws, FaCss3, FaCcStripe, FaCookie, FaFacebook, FaGoogle, FaNode } from 'react-icons/fa';
-import { SiRedux,SiTypescript, SiNextdotjs, SiTailwindcss, SiFirebase, SiGatsby, SiStrapi, SiGooglemaps, SiStyledcomponents, SiMongodb, SiExpress, SiSocketdotio } from 'react-icons/si';
+import { FaReact, FaNextcloud, FaNodeJs, FaSass, FaAws, FaCss3, FaCcStripe, FaCookie, FaFacebook, FaGoogle, FaNode, FaChartBar } from 'react-icons/fa';
+import { SiRedux, SiSurveymonkey, SiTypescript, SiNextdotjs, SiTailwindcss, SiFirebase, SiGatsby, SiStrapi, SiGooglemaps, SiStyledcomponents, SiMongodb, SiExpress, SiSocketdotio, SiAntdesign } from 'react-icons/si';
 
 export const SliderData = [
   {
@@ -23,7 +25,7 @@ export const SliderData = [
       { sId: 12, icon: <SiFirebase />, name: 'Firebase' },
       { sId: 13, icon: <FaNodeJs />, name: 'Node.js' },
       { sId: 14, icon: <FaCss3 />, name: 'Tailwind CSS' },
-      { sId: 15, icon: <FaCcStripe />, name: 'Stripe' },
+      { sId: 15, icon: <FaCcStripe />, name: 'Stripe (Customized)' },
       { sId: 16, icon: <SiRedux />, name: 'Redux' },
     ],
     url: 'https://example.com/project1',
@@ -59,7 +61,7 @@ export const SliderData = [
   {
     id: 4,
     mainImg: crwnshop,
-    title: "4. React Crwn Shop",
+    title: "4. React - Crwn Shop",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
       { sId: 32, icon: <FaCcStripe />, name: 'Stripe' },
@@ -72,7 +74,7 @@ export const SliderData = [
   {
     id: 5,
     mainImg: reactrouter,
-    title: "5. React Router v6 & OAuth",
+    title: "5. React - Router v6 & OAuth",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
       { sId: 32, icon: <SiMongodb />, name: 'MongoDB' },
@@ -87,7 +89,7 @@ export const SliderData = [
   {
     id: 6,
     mainImg: chatapp,
-    title: "6. React Chat + Mongo DB + Websockets",
+    title: "6. React - Chat with Mongo DB & Websockets",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
       { sId: 32, icon: <SiMongodb />, name: 'Mongo DB' },
@@ -100,7 +102,7 @@ export const SliderData = [
   {
     id: 7,
     mainImg: streamer,
-    title: "7. React Streaming with Mongo DB and Grid FS",
+    title: "7. React - Streaming with Mongo DB and Grid FS",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
       { sId: 32, icon: <SiMongodb />, name: 'Mongo DB' },
@@ -113,7 +115,7 @@ export const SliderData = [
   {
     id: 8,
     mainImg: qrcode,
-    title: "8. React QR Code Generator",
+    title: "8. React - QR Code Generator",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
       { sId: 32, icon: <FaReact />, name: 'React-Qr_code' },
@@ -137,10 +139,38 @@ export const SliderData = [
   {
     id: 10,
     mainImg: portfolio,
-    title: "10. React Portfolio Version 2",
+    title: "10. React - Portfolio Version 2",
     secondaryImg: [
-      { sId: 31, icon: <FaReact />, name: 'React Native' },
+      { sId: 31, icon: <FaReact />, name: 'React' },
       { sId: 32, icon: <FaCss3 />, name: 'Css' },
+    ],
+    url: 'https://expo.dev/@s2seweis/MealsToGo?serviceType=classic&distribution=expo-go',
+    github: 'https://github.com/s2seweis/second-react-native-app'
+  },
+  {
+    id: 11,
+    mainImg: bookcar,
+    title: "11. React - Book A Car",
+    secondaryImg: [
+      { sId: 31, icon: <FaReact />, name: 'React' },
+      { sId: 31, icon: <SiExpress />, name: 'Express' },
+      { sId: 32, icon: <SiRedux />, name: 'Redux' },
+      { sId: 33, icon: <FaCss3 />, name: 'Mongo DB' },
+      { sId: 34, icon: <SiAntdesign />, name: 'Antd' },
+    ],
+    url: 'https://expo.dev/@s2seweis/MealsToGo?serviceType=classic&distribution=expo-go',
+    github: 'https://github.com/s2seweis/second-react-native-app'
+  },
+  {
+    id: 12,
+    mainImg: survey,
+    title: "12. React - Take A Survey with Firebase ",
+    secondaryImg: [
+      { sId: 31, icon: <FaReact />, name: 'React' },
+      { sId: 31, icon: <SiRedux />, name: 'Redux' },
+      { sId: 32, icon: <SiSurveymonkey />, name: 'Survey-React' },
+      { sId: 33, icon: <SiFirebase />, name: 'Firebase' },
+      { sId: 34, icon: <FaChartBar />, name: 'Chart.js' },
     ],
     url: 'https://expo.dev/@s2seweis/MealsToGo?serviceType=classic&distribution=expo-go',
     github: 'https://github.com/s2seweis/second-react-native-app'
