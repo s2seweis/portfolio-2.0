@@ -1,7 +1,7 @@
 /* eslint-disable */
 import {spotify, airbnb, twitter, reactjs, nextjs, tailwind, framer, typescript, nextauth, mongodb, shop, shop1} from '../../assets/images/index'
 import blog1 from './images/blog.png';
-import gmap from './images/gmap.png';
+import gmap from './images/gmap-v1.png';
 import crwnshop from './images/crwn-shop.png';
 import reactrouter from './images/router1.webp';
 import chatapp from './images/chat-app.png'
