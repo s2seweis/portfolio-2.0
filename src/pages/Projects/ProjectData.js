@@ -11,6 +11,8 @@ import reactnative from './images/second-react-native.webp';
 import portfolio from './images/portfolio.webp'; 
 import bookcar from './images/book-car.webp'; 
 import survey from './images/survey-v1.webp';
+import typescript1 from './images/typscript.webp';
+import postgre from './images/postgre.png';
 
 import { FaReact, FaNextcloud, FaNodeJs, FaSass, FaAws, FaCss3, FaCcStripe, FaCookie, FaFacebook, FaGoogle, FaNode, FaChartBar } from 'react-icons/fa';
 import { SiRedux, SiSurveymonkey, SiTypescript, SiNextdotjs, SiTailwindcss, SiFirebase, SiGatsby, SiStrapi, SiGooglemaps, SiStyledcomponents, SiMongodb, SiExpress, SiSocketdotio, SiAntdesign } from 'react-icons/si';
@@ -171,6 +173,34 @@ export const SliderData = [
       { sId: 32, icon: <SiSurveymonkey />, name: 'Survey-React' },
       { sId: 33, icon: <SiFirebase />, name: 'Firebase' },
       { sId: 34, icon: <FaChartBar />, name: 'Chart.js' },
+    ],
+    url: 'https://expo.dev/@s2seweis/MealsToGo?serviceType=classic&distribution=expo-go',
+    github: 'https://github.com/s2seweis/second-react-native-app'
+  },
+  {
+    id: 13,
+    mainImg: typescript1,
+    title: "13. React - Typscript Playground ",
+    secondaryImg: [
+      { sId: 31, icon: <FaReact />, name: 'React' },
+      // { sId: 31, icon: <SiRedux />, name: 'Redux' },
+      // { sId: 32, icon: <SiSurveymonkey />, name: 'Survey-React' },
+      // { sId: 33, icon: <SiFirebase />, name: 'Firebase' },
+      // { sId: 34, icon: <FaChartBar />, name: 'Chart.js' },
+    ],
+    url: 'https://expo.dev/@s2seweis/MealsToGo?serviceType=classic&distribution=expo-go',
+    github: 'https://github.com/s2seweis/second-react-native-app'
+  },
+  {
+    id: 14,
+    mainImg: postgre,
+    title: "14. React - Postgre Playground ",
+    secondaryImg: [
+      { sId: 31, icon: <FaReact />, name: 'React' },
+      // { sId: 31, icon: <SiRedux />, name: 'Redux' },
+      // { sId: 32, icon: <SiSurveymonkey />, name: 'Survey-React' },
+      // { sId: 33, icon: <SiFirebase />, name: 'Firebase' },
+      // { sId: 34, icon: <FaChartBar />, name: 'Chart.js' },
     ],
     url: 'https://expo.dev/@s2seweis/MealsToGo?serviceType=classic&distribution=expo-go',
     github: 'https://github.com/s2seweis/second-react-native-app'
