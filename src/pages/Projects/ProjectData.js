@@ -15,7 +15,7 @@ import typescript1 from './images/typscript.webp';
 import postgre from './images/postgre.png';
 
 import { FaReact, FaNextcloud, FaNodeJs, FaSass, FaAws, FaCss3, FaCcStripe, FaCookie, FaFacebook, FaGoogle, FaNode, FaChartBar } from 'react-icons/fa';
-import { SiRedux, SiSurveymonkey, SiTypescript, SiNextdotjs, SiTailwindcss, SiFirebase, SiGatsby, SiStrapi, SiGooglemaps, SiStyledcomponents, SiMongodb, SiExpress, SiSocketdotio, SiAntdesign } from 'react-icons/si';
+import { SiRedux, SiPostgresql, SiSurveymonkey, SiTypescript, SiNextdotjs, SiTailwindcss, SiFirebase, SiGatsby, SiStrapi, SiGooglemaps, SiStyledcomponents, SiMongodb, SiExpress, SiSocketdotio, SiAntdesign } from 'react-icons/si';
 
 export const SliderData = [
   {
@@ -30,8 +30,8 @@ export const SliderData = [
       { sId: 15, icon: <FaCcStripe />, name: 'Stripe (Customized)' },
       { sId: 16, icon: <SiRedux />, name: 'Redux' },
     ],
-    url: 'https://example.com/project1',
-    github: 'https://github.com/s2seweis/reactShop-v01'
+    url: 'https://mellow-cheesecake-83fac5.netlify.app/',
+    github: 'https://github.com/s2seweis/reactShop-v01-client'
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ export const SliderData = [
       { sId: 25, icon: <FaCookie />, name: 'Cookie Banner' },
       { sId: 26, icon: <FaAws />, name: 'AWS S3 Bucket' },
     ],
-    url: 'www.thesolacelife.com',
+    url: 'https://thesolacelife.com/',
     github: 'https://github.com/s2seweis/gatsby4-6-1'
   },
   {
@@ -57,7 +57,7 @@ export const SliderData = [
       { sId: 32, icon: <SiGatsby />, name: 'Gatsby' },
       { sId: 33, icon: <SiGooglemaps />, name: 'GMap Api' },
     ],
-    url: 'https://example.com/project3',
+    url: 'https://lively-tarsier-5756e6.netlify.app/',
     github: 'https://github.com/s2seweis/googlemap-gatsby'
   },
   {
@@ -70,7 +70,7 @@ export const SliderData = [
       { sId: 33, icon: <SiStyledcomponents />, name: 'Styled Components' },
       { sId: 34, icon: <SiTypescript />, name: 'Typscript' },
     ],
-    url: 'https://example.com/project3',
+    url: 'https://magenta-stardust-71ce34.netlify.app/',
     github: 'https://github.com/s2seweis/crwn-pwa-v2.git'
   },
   {
@@ -85,20 +85,20 @@ export const SliderData = [
       { sId: 35, icon: <FaGoogle />, name: 'Google Auth' },
       { sId: 36, icon: <FaNode />, name: 'Node Mailer' },
     ],
-    url: 'https://example.com/project3',
-    github: 'https://github.com/s2seweis/react-router-v6'
+    url: 'https://luxury-flan-610a79.netlify.app/',
+    github: 'https://github.com/s2seweis/react-router-v6-client'
   },
   {
     id: 6,
     mainImg: chatapp,
-    title: "6. React - Chat with Mongo DB & Websockets",
+    title: "6. React - Chat with Mongo DB & Websockets (login credentials at the end of the readme.md file)",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
       { sId: 32, icon: <SiMongodb />, name: 'Mongo DB' },
       { sId: 33, icon: <SiExpress />, name: 'Express' },
       { sId: 34, icon: <SiSocketdotio />, name: 'Socket IO' },
     ],
-    url: 'https://example.com/project3',
+    url: 'https://fluffy-nasturtium-6d0c81.netlify.app/',
     github: 'https://github.com/s2seweis/chat-app-websockets'
   },
   {
@@ -111,8 +111,8 @@ export const SliderData = [
       { sId: 34, icon: <SiMongodb />, name: 'Grid FS' },
       { sId: 33, icon: <SiExpress />, name: 'Express' },
     ],
-    url: 'https://example.com/project3',
-    github: 'https://github.com/s2seweis/upload-retrieve-images'
+    url: 'https://endearing-selkie-adaa73.netlify.app/',
+    github: 'https://github.com/s2seweis/streaming-client'
   },
   {
     id: 8,
@@ -122,7 +122,7 @@ export const SliderData = [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
       { sId: 32, icon: <FaReact />, name: 'React-Qr_code' },
     ],
-    url: 'https://example.com/project3',
+    url: 'https://helpful-starlight-1f9b7f.netlify.app/',
     github: 'https://github.com/s2seweis/react-qr-code-generator'
   },
   {
@@ -146,8 +146,8 @@ export const SliderData = [
       { sId: 31, icon: <FaReact />, name: 'React' },
       { sId: 32, icon: <FaCss3 />, name: 'Css' },
     ],
-    url: 'https://expo.dev/@s2seweis/MealsToGo?serviceType=classic&distribution=expo-go',
-    github: 'https://github.com/s2seweis/second-react-native-app'
+    url: 'https://idyllic-mooncake-7b63ff.netlify.app/',
+    github: 'https://github.com/s2seweis/portfolio-2.0'
   },
   {
     id: 11,
@@ -160,8 +160,8 @@ export const SliderData = [
       { sId: 33, icon: <FaCss3 />, name: 'Mongo DB' },
       { sId: 34, icon: <SiAntdesign />, name: 'Antd' },
     ],
-    url: 'https://expo.dev/@s2seweis/MealsToGo?serviceType=classic&distribution=expo-go',
-    github: 'https://github.com/s2seweis/second-react-native-app'
+    url: 'https://cool-sawine-707024.netlify.app/',
+    github: 'https://github.com/s2seweis/book-a-car'
   },
   {
     id: 12,
@@ -174,8 +174,8 @@ export const SliderData = [
       { sId: 33, icon: <SiFirebase />, name: 'Firebase' },
       { sId: 34, icon: <FaChartBar />, name: 'Chart.js' },
     ],
-    url: 'https://expo.dev/@s2seweis/MealsToGo?serviceType=classic&distribution=expo-go',
-    github: 'https://github.com/s2seweis/second-react-native-app'
+    url: 'https://jolly-daffodil-b1ab36.netlify.app/',
+    github: 'https://github.com/s2seweis/survery-react'
   },
   {
     id: 13,
@@ -183,13 +183,10 @@ export const SliderData = [
     title: "13. React - Typscript Playground ",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'React' },
-      // { sId: 31, icon: <SiRedux />, name: 'Redux' },
-      // { sId: 32, icon: <SiSurveymonkey />, name: 'Survey-React' },
-      // { sId: 33, icon: <SiFirebase />, name: 'Firebase' },
-      // { sId: 34, icon: <FaChartBar />, name: 'Chart.js' },
+      { sId: 32, icon: <SiTypescript />, name: 'Typescript' },
     ],
-    url: 'https://expo.dev/@s2seweis/MealsToGo?serviceType=classic&distribution=expo-go',
-    github: 'https://github.com/s2seweis/second-react-native-app'
+    url: 'https://elaborate-selkie-8ec85d.netlify.app/',
+    github: 'https://github.com/s2seweis/tsc-starter'
   },
   {
     id: 14,
@@ -197,12 +194,9 @@ export const SliderData = [
     title: "14. React - Postgre Playground ",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'React' },
-      // { sId: 31, icon: <SiRedux />, name: 'Redux' },
-      // { sId: 32, icon: <SiSurveymonkey />, name: 'Survey-React' },
-      // { sId: 33, icon: <SiFirebase />, name: 'Firebase' },
-      // { sId: 34, icon: <FaChartBar />, name: 'Chart.js' },
+      { sId: 32, icon: <SiPostgresql />, name: 'Postgre SQL' },
     ],
-    url: 'https://expo.dev/@s2seweis/MealsToGo?serviceType=classic&distribution=expo-go',
-    github: 'https://github.com/s2seweis/second-react-native-app'
+    url: 'https://wonderful-salamander-16e629.netlify.app/',
+    github: 'https://github.com/s2seweis/sql-starter'
   },
 ];

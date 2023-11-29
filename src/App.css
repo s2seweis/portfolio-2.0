@@ -59,6 +59,7 @@
   bottom: 10px;
   left: 10px;
   animation: fade 3s ease-in-out;
+  margin-bottom: 50px;
 }
 
 .welcome__text h5 {

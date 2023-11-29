@@ -72,3 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Projects:
 witdh=1350
 height=750
+"start": "PORT=3001 react-scripts start",
