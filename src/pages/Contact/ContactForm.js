@@ -4,6 +4,7 @@ export default function ContactForm() {
   return (
     <div className="contact__card">
       <form action="https://formsubmit.co/weissenborn.sebastian@gmail.com" method="POST">
+        <input type='hidden' name='subject' value="New email, OMG!"/>
         <input type="hidden" name="_next" value="https://idyllic-mooncake-7b63ff.netlify.app/thanks.html"/>
           <div className="form-group">
             <label htmlFor="name">Your Name</label>
