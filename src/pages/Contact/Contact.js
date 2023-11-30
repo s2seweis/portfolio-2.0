@@ -47,14 +47,14 @@ function Contact() {
             <motion.a
               animate=""
               transition=""
-              href="https://www.linkedin.com/in/vince-paul-garcia-8648a9224/" target="_blank" className="social__row">
+              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" className="social__row">
               <LinkedIn className="social__icon blue" />
               <h1 className='social__name'>LinkedIn</h1>
             </motion.a>
             <motion.a
               animate=""
               transition=""
-              href="https://www.facebook.com/Vinxe08/" target="_blank" className="social__row">
+              href="https://www.facebook.com/profile.php?id=100079871498434" target="_blank" className="social__row">
               <FacebookRounded className="social__icon blue" />
               <h1 className='social__name'>Facebook</h1>
             </motion.a>

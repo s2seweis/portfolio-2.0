@@ -17,14 +17,14 @@ function ContactIcon({ iconColor, iconFadeIn }) {
           initial={{ scale: 0 }}
           animate={{ scale: iconFadeIn ? 0 : 1 }}
           transition={{ ease: "easeOut", duration: .1 }}
-          href="https://www.linkedin.com/in/vince-paul-garcia-8648a9224/" target="_blank" className={ iconColor ? 'icon__row scrolled' : 'icon__row'}>
+          href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" className={ iconColor ? 'icon__row scrolled' : 'icon__row'}>
           <LinkedIn fontSize="large" />
         </motion.a>
         <motion.a 
           initial={{ scale: 0 }}
           animate={{ scale: iconFadeIn ? 0 : 1 }}
           transition={{ ease: "easeOut", duration: .3 }}
-          href="https://www.facebook.com/Vinxe08/" target="_blank" className={ iconColor ? 'icon__row scrolled' : 'icon__row'}>
+          href="https://www.facebook.com/profile.php?id=100079871498434" target="_blank" className={ iconColor ? 'icon__row scrolled' : 'icon__row'}>
           <FacebookRounded fontSize="large" />
         </motion.a>
         <motion.a 
