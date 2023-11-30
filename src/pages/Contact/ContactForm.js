@@ -3,7 +3,8 @@ import React from 'react'
 export default function ContactForm() {
   return (
     <div className="contact__card">
-      <form action="https://formsubmit.co/weissenborn.sebastian@gmail.com" method="POST">
+      <form action="67f284a7cbd6a71135a547673c1fa99c" method="POST">
+        <input type="hidden" name="_captcha" value="false" />
         <input type='hidden' name='subject' value="New email, OMG!" />
         <input type="hidden" name="_next" value="https://idyllic-mooncake-7b63ff.netlify.app/thanks.html" />
         <div className="form-group">
