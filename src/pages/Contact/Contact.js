@@ -2,6 +2,7 @@ import React from 'react'
 import './Contact.css'
 import { Home, ContactPhone, Email, LinkedIn, FacebookRounded, GitHub } from '@mui/icons-material';
 import { motion } from 'framer-motion'
+import ContactForm from './ContactForm';
 
 function Contact() {
   return (
@@ -68,23 +69,9 @@ function Contact() {
           </div>
         </div>
       </div>
-       <div className="contact__card">
-          <form>
-            <div className="form-group">
-              <label htmlFor="name">Your Name</label>
-              <input type="text" id="name" name="name" required />
-            </div>
-            <div className="form-group">
-              <label htmlFor="email">Your Email</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div className="form-group">
-              <label htmlFor="message">Your Message</label>
-              <textarea id="message" name="message" rows="4" required></textarea>
-            </div>
-            <button className='button-contact' type="submit">Send Message</button>
-          </form>
-        </div>
+
+        <ContactForm/>
+
       </div>
   )
 }
