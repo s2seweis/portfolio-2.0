@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from 'react'
 import './About.css'
-import lebenslauf from '../../assets/Lebenslauf_cv.pdf'
+import lebenslauf from '../../assets/cv.pdf'
 // import Lottie from 'lottie-react'
 // import data from '../../images/data.json'
 
