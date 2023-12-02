@@ -1,0 +1,16 @@
+.parallax-container {
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (min-width: 650px) {
+  .parallax-container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .parallax-container {
+    width: 40%;
+  }
+}

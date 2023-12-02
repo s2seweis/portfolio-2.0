@@ -8,7 +8,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Navbar from '../components/Navbar/Navbar';
 import ContactIcon from '../components/ContactIcon/ContactIcon';
 import ScrollToTop from 'react-scroll-to-top'
-import Adobe from './Adobe/Adobe'
+import Adobe from './Adobe/Adobe';
+import './Layout.css';
 import ParallaxEffect from '../components/ParallaxEffect/ParallaxEffect'
 
 import poster1 from '../components/ParallaxEffect/assets/poster1.jpg';
@@ -46,7 +47,7 @@ function Layout() {
     }
   })
 
-   const backgroundUrls1 = [
+  const backgroundUrls1 = [
     { imageUrl: poster2, imageText: 'Before' },
     { imageUrl: poster1, imageText: 'After' },
     // Add more images as needed
@@ -64,15 +65,15 @@ function Layout() {
           <About scrollValue={about} />
           <Skills scrollValue={skills} />
           <Adobe />
-          <div>
-        {backgroundUrls1.map((item, index) => (
-          <ParallaxEffect key={index} backgroundImage={item.imageUrl}>
-            <h1>Adobe</h1>
-            <p>{item.imageText}</p>
-            {/* <button className='cta-button'>Get Started</button> */}
-          </ParallaxEffect>
-        ))}
-      </div>
+          <div className="parallax-container">
+            {backgroundUrls1.map((item, index) => (
+              <ParallaxEffect key={index} backgroundImage={item.imageUrl}>
+                <h1>Adobe</h1>
+                <p>{item.imageText}</p>
+                {/* <button className='cta-button'>Get Started</button> */}
+              </ParallaxEffect>
+            ))}
+          </div>
           <Contact />
         </Route>
       </Switch>

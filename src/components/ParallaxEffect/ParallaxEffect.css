@@ -1,11 +1,31 @@
 .parallax-hero {
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
+  height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  /* background-size: 90%; */
+}
+
+@media screen and (min-width: 650px) {
+  .parallax-hero {
+    background-size: 70%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .parallax-hero {
+    background-size: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .parallax-hero {
+    background-size: 30%;
+  }
 }
 
 .parallax-content {
@@ -30,6 +50,4 @@
   border-radius: 5px;
   margin-top: 20px;
 }
-
-
 
