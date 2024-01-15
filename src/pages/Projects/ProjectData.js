@@ -1,20 +1,21 @@
 /* eslint-disable */
 import {spotify, airbnb, twitter, reactjs, nextjs, tailwind, framer, typescript, nextauth, mongodb, shop, shop1} from '../../assets/images/index'
-import blog1 from './images/blog.png';
-import gmap from './images/gmap-v1.png';
-import crwnshop from './images/crwn-shop.png';
+import blog1 from './images/blog.webp';
+import gmap from './images/gmap-v1.webp';
+import crwnshop from './images/crwn-shop.webp';
 import reactrouter from './images/router1.webp';
 import chatapp from './images/chat.webp'
-import streamer from './images/streamer.png'
-import qrcode from './images/qrcode.png'
+import streamer from './images/streamer.webp'
+import qrcode from './images/qrcode.webp'
 import reactnative from './images/second-react-native.webp'; 
 import portfolio from './images/portfolio.webp'; 
 import bookcar from './images/book-car.webp'; 
 import survey from './images/survey-v1.webp';
 import typescript1 from './images/typscript.webp';
-import postgre from './images/postgre.png';
+import postgre from './images/postgre.webp';
 
-import { FaReact, FaNextcloud, FaNodeJs, FaSass, FaAws, FaCss3, FaCcStripe, FaCookie, FaFacebook, FaGoogle, FaNode, FaChartBar } from 'react-icons/fa';
+import { FaReact, FaDocker, FaNextcloud, FaNodeJs, FaSass, FaAws, FaCss3, FaCcStripe, FaCookie, FaFacebook, FaGoogle, FaNode, FaChartBar } from 'react-icons/fa';
+import { IoLogoPwa } from "react-icons/io5";
 import { SiRedux, SiPostgresql, SiSurveymonkey, SiTypescript, SiNextdotjs, SiTailwindcss, SiFirebase, SiGatsby, SiStrapi, SiGooglemaps, SiStyledcomponents, SiMongodb, SiExpress, SiSocketdotio, SiAntdesign } from 'react-icons/si';
 
 export const SliderData = [
@@ -184,6 +185,7 @@ export const SliderData = [
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'React' },
       { sId: 32, icon: <SiTypescript />, name: 'Typescript' },
+      { sId: 33, icon: <FaDocker />, name: 'Docker' },
     ],
     url: 'https://elaborate-selkie-8ec85d.netlify.app/',
     github: 'https://github.com/s2seweis/tsc-starter'
@@ -193,8 +195,14 @@ export const SliderData = [
     mainImg: postgre,
     title: "14. React - Postgre Playground ",
     secondaryImg: [
-      { sId: 31, icon: <FaReact />, name: 'React' },
-      { sId: 32, icon: <SiPostgresql />, name: 'Postgre SQL' },
+      { sId: 30, icon: <FaReact />, name: 'React' },
+      { sId: 31, icon: <SiRedux />, name: 'Redux' },
+      { sId: 32, icon: <SiNextdotjs />, name: 'Next.js' },
+      { sId: 33, icon: <SiExpress />, name: 'Express' },
+      { sId: 34, icon: <SiPostgresql />, name: 'Postgre SQL' },
+      { sId: 35, icon: <FaCcStripe />, name: 'Stripe' },
+      { sId: 36, icon: <IoLogoPwa />, name: 'PWA' },
+      { sId: 37, icon: <FaDocker />, name: 'Docker' }
     ],
     url: 'https://wonderful-salamander-16e629.netlify.app/',
     github: 'https://github.com/s2seweis/sql-starter'
