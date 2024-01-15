@@ -198,8 +198,8 @@
 .circle{
   border: 1px solid #d1d7d7;
   /* width: 250px; */
-  min-width: 250px;
-  min-height: 250px;
+  min-width: 350px;
+  min-height: 350px;
   /* height: 250px; */
   border-radius: 50%;
   background-image: url("../../assets/images/me_new.webp");
@@ -207,3 +207,9 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 500px) {
+  .circle {
+    min-width: 275px;
+    min-height: 275px;
+  }
+}
