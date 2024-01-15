@@ -196,13 +196,14 @@
 }
 
 .circle{
-  border: 1px solid black;
+  border: 1px solid #d1d7d7;
   /* width: 250px; */
   min-width: 250px;
   min-height: 250px;
   /* height: 250px; */
   border-radius: 50%;
-  background-image: url("../../assets/images/me.jpg");
+  background-image: url("../../assets/images/me_new.webp");
+  /* background-image: url("../../assets/images/me.jpg"); */
   background-size: cover;
 }
 
