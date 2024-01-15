@@ -17,6 +17,7 @@ import postgre from './images/postgre.webp';
 import { FaReact, FaDocker, FaNextcloud, FaNodeJs, FaSass, FaAws, FaCss3, FaCcStripe, FaCookie, FaFacebook, FaGoogle, FaNode, FaChartBar } from 'react-icons/fa';
 import { IoLogoPwa } from "react-icons/io5";
 import { SiRedux, SiPostgresql, SiSurveymonkey, SiTypescript, SiNextdotjs, SiTailwindcss, SiFirebase, SiGatsby, SiStrapi, SiGooglemaps, SiStyledcomponents, SiMongodb, SiExpress, SiSocketdotio, SiAntdesign } from 'react-icons/si';
+import { TbSeo } from "react-icons/tb";
 
 export const SliderData = [
   {
@@ -184,8 +185,10 @@ export const SliderData = [
     title: "13. React - Typscript Playground ",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'React' },
-      { sId: 32, icon: <SiTypescript />, name: 'Typescript' },
-      { sId: 33, icon: <FaDocker />, name: 'Docker' },
+      { sId: 32, icon: <SiNextdotjs />, name: 'Next.js' },
+      { sId: 33, icon: <SiTypescript />, name: 'Typescript' },
+      { sId: 34, icon: <FaDocker />, name: 'Docker' },
+      { sId: 35, icon: <TbSeo />, name: 'SEO' }
     ],
     url: 'https://elaborate-selkie-8ec85d.netlify.app/',
     github: 'https://github.com/s2seweis/tsc-starter'
