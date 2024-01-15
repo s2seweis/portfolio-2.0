@@ -93,7 +93,7 @@ export const SliderData = [
   {
     id: 6,
     mainImg: chatapp,
-    title: "6. React - Chat with Mongo DB & Websockets (login credentials at the end of the readme.md file)",
+    title: "6. React - Chat|Mongo DB & Websockets (login readme.md)",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
       { sId: 32, icon: <SiMongodb />, name: 'Mongo DB' },
@@ -106,7 +106,7 @@ export const SliderData = [
   {
     id: 7,
     mainImg: streamer,
-    title: "7. React - Streaming with Mongo DB and Grid FS",
+    title: "7. React - Streaming|MongoDB/Grid FS",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
       { sId: 32, icon: <SiMongodb />, name: 'Mongo DB' },
@@ -119,7 +119,7 @@ export const SliderData = [
   {
     id: 8,
     mainImg: qrcode,
-    title: "8. React - QR Code Generator",
+    title: "8. React - QR Generator",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'ReactJS' },
       { sId: 32, icon: <FaReact />, name: 'React-Qr_code' },
@@ -143,7 +143,7 @@ export const SliderData = [
   {
     id: 10,
     mainImg: portfolio,
-    title: "10. React - Portfolio Version 2",
+    title: "10. React - Portfolio 2",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'React' },
       { sId: 32, icon: <FaCss3 />, name: 'Css' },
@@ -168,7 +168,7 @@ export const SliderData = [
   {
     id: 12,
     mainImg: survey,
-    title: "12. React - Take A Survey with Firebase ",
+    title: "12. React - Survey with Firebase ",
     secondaryImg: [
       { sId: 31, icon: <FaReact />, name: 'React' },
       { sId: 31, icon: <SiRedux />, name: 'Redux' },

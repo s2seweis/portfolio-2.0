@@ -24,7 +24,7 @@ function Projects({ scrollValue }) {
   return (
     <div className="Projects" id="Projects">
       <div className="projects__container">
-        <div className="projects__title">
+        <div className="projects__title" style={{marginTop:"-35px"}}>
           <h3 className={scrollValue ? "featured__project animation__fromLeft" : "featured__project"}>
             Featured Projects
           </h3>
@@ -62,16 +62,18 @@ function Projects({ scrollValue }) {
                 </div>
               )}
             </div>
-            <div className='lower__button'>
+            <div className='project-links' style={{}}>
+            <div className='lower__button' style={{marginBottom:"30px"}}>
               <a target='_blank' href={currentSlideData.url} className='image__title'>
                 <h1 className='text_icon'>Visit Page</h1>
                 <FaArrowCircleUp fontSize='large' className='projects__icon' />
               </a>
             </div>
-            <div className='lower__button'>
+            <div className='lower__button' style={{marginBottom:"30px"}}>
               <a style={{color:"black"}} href={currentSlideData.github} target="_blank" rel="noopener noreferrer">
                 <FaGithub /> Github
               </a>
+            </div>
             </div>
 
           </motion.div>
